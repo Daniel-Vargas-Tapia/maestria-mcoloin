@@ -1,7 +1,7 @@
 .mainHeader{
-    background: url(../assets/header-background.jpg);    
+    background: url(../assets/header-background-2.jpg);    
     background-size: cover;
-    background-position: center;
+    background-position: top;
     min-height: 80vh;
     width: 100%;
     position: relative;
@@ -12,7 +12,39 @@
     gap: 2rem;
 }
 
+.backgroundHeader{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url(../assets/header-background.jpg);    
+    background-size: cover;
+    animation-name: fadeout;
+    animation-duration: 60s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    background-position: center;
+    
+}
+
+@keyframes fadeout {
+
+    0%,4%{opacity: 0;}
+    5%,25%{opacity: 0;}
+    
+    26%,31%{opacity: 1;}
+    32%,52%{opacity: 1;}
+    
+    53%,58%{opacity: 0;}
+    59%,79%{opacity: 0;}
+    
+    80%,81%{opacity: 1;}
+    82%,100%{opacity: 1;}
+}
+
 .backdrop{
+    z-index: 1;
     width: 100%;
     height: 100%;
     position: absolute;
