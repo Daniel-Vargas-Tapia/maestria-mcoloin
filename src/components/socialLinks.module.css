@@ -1,0 +1,13 @@
+.socialContainer{
+    display: flex;
+    gap: .5rem;
+}
+.socialContainer img{
+    width: 35px;
+}
+
+@media screen and (max-width: 500px) {
+    .socialContainer img{
+        width: 35px;
+    }
+}

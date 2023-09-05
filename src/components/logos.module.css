@@ -1,0 +1,35 @@
+.logoContainer{
+    display: flex;
+    background-color: white;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    width: fit-content;
+    border-radius: 25px 0 0 25px;
+    position: absolute;
+    top: 1rem;
+    right: 0;
+}
+
+.logoContainer img{
+    width: 60px;
+    aspect-ratio: 4/3;
+    object-fit: contain;
+}
+
+@media screen and (max-width: 500px) {
+    
+    .logoContainer{
+        right: auto;
+        top: 1rem;
+        left: 0;
+        border-radius: 0 25px 25px 0;
+
+    }
+
+    .logoContainer img{
+        width: 52px
+    }
+    
+}

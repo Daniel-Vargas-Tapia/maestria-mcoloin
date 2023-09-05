@@ -1,0 +1,60 @@
+.description{
+    width: 100%;
+    max-width: 750px;
+    margin: auto;
+    border-radius: 25px;
+    box-shadow: rgba(0,0,0,0.5) 5px 5px 15px;
+}
+
+.backdrop{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0.2);
+    border-radius: 25px 25px 0 0;
+}
+
+.innerBackdrop{
+    padding: 2rem;
+}
+.description .header{
+    background: url(../assets/footer-background.jpg);
+    background-size: 100%;
+    background-position: center;
+    color: white;
+    border-radius: 25px 25px 0 0;
+    text-shadow: rgba(0,0,0,0.5) 5px 5px 5px;
+}
+
+.description h2{
+    text-transform: uppercase;
+}
+.description ul{
+    list-style: none;
+    margin-bottom: 1rem;
+}
+
+.description ul li{
+    position: relative;
+    margin-left: 1rem;
+}
+.description ul li::before{
+    content: "";
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    background-color: #E4852D;
+    border-radius: 50%;
+    top: 50%;
+    left: -1rem;
+    transform: translateY(-50%);
+}
+.details{
+    padding: 2rem;
+}
+
+.description h4,
+.description p{
+    margin-bottom: 1rem;
+}
