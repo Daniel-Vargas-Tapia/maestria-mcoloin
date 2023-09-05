@@ -1,5 +1,5 @@
 export function FechaAdmision () {
   return (
-    <h2>Fechas de Admision</h2>
+    <h2>HOLA COMO SE ENCUNTRAN</h2>
   )
 }
