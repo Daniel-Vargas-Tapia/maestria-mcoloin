@@ -10,8 +10,18 @@ main{
     display: flex;
 }
 
+.currentContainer{
+    padding: 1rem;
+    width: 100%;
+    display: flex;
+}
+
 @media screen and (max-width: 576px) {
     main{
         flex-direction: column;
+    }
+
+    .currentContainer{
+        min-height: auto;
     }
 }

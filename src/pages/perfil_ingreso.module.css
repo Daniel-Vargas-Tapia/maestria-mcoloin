@@ -1,0 +1,38 @@
+.perfilIngreso{
+    padding: 2rem;
+    box-shadow: rgba(0,0,0,.5) 5px 5px 15px;
+    border-radius: 25px;
+    max-width: 750px;
+    margin: auto;
+}
+
+.perfilIngreso h2{
+    margin-bottom: 1rem;
+}
+
+.perfilIngreso ul{
+    list-style: none;
+}
+
+.perfilIngreso li{
+    margin-top: 1rem;
+}
+
+.perfilIngreso h3{
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+    position: relative;
+    font-size: 1rem;
+}
+
+.perfilIngreso h3::before{
+    content: "";
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: #E4852D;
+    top: 50%;
+    transform: translateY(-50%);
+    left: -1rem;
+}

@@ -1,0 +1,54 @@
+.perfilEgreso{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    gap: 1rem;
+}
+
+.perfilEgreso div{
+    box-shadow: rgba(0,0,0,0.5) 5px 5px 15px;
+    padding: 2rem;
+    border-radius: 25px;
+    max-width: 450px;
+    min-width: 290px;
+}
+
+.perfilEgreso img{
+    max-width: 400px;
+    min-width: 290px;
+}
+
+.perfilEgreso ul{
+    list-style-type: none;
+}
+
+.perfilEgreso h2{
+    margin-bottom: 1rem;
+}
+
+.perfilEgreso li{
+    margin-bottom: 1rem;
+    position: relative;
+    margin-left: 1rem;
+}
+
+.perfilEgreso li::before{
+    content: "";
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    background-color: #E4852D;
+    border-radius: 50%;
+    top: .4rem;
+    left: -1rem;
+}
+
+@media screen and (max-width: 960px){
+
+    .perfilEgreso img{
+        display: none;
+    }
+
+}
+

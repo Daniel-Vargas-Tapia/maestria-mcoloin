@@ -10,7 +10,7 @@ function App () {
       <Header />
       <main>
         <Navbar sectionHandler={changeSection} section={section} />
-        <div style={{ padding: '1rem', width: '100%', minHeight: '100vh', display: 'flex', placeItems: 'center' }}>
+        <div className='currentContainer'>
           <CurrentSection />
         </div>
       </main>

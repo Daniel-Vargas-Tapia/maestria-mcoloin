@@ -1,0 +1,80 @@
+.fechas{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    margin: auto;
+    gap: 2rem;
+}
+
+.fechaDescription{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 1rem;
+}
+
+.fechas .fecha{
+    width: 100px;
+    height: 1rem;
+    font-weight: bold;
+}
+
+.fechas .mes{
+    color: #E4852D;
+}
+
+.fechas .icon{
+    background-color: rgb(184, 184, 184);
+    color: white;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    flex-shrink: 0;
+}
+
+.fechaDescription .icon::after{
+    width: .2rem;
+    height: 1rem;
+    background-color: rgb(184, 184, 184);
+    content: "";
+    position: absolute;
+    bottom: -1.5rem;
+    border-radius: 2px;
+}
+
+.fechas .fechaDescription:last-child .icon::after{
+    display: none;
+}
+
+@media screen and (max-width: 768px){
+    .fechas{
+        font-size: .8rem;
+    }
+    .fechas .icon{
+        width: 35px;
+        height: 35px;
+    }
+    .fechaDescription{
+        gap: .6rem;
+    }
+    .fechas .fecha{
+        width: 75px;
+    }
+}
+@media screen and (max-width: 500px){
+    .fechas{
+        font-size: .7rem;
+    }
+    .fechas .icon{
+        width: 35px;
+        height: 35px;
+    }
+    .fechaDescription{
+        gap: .5rem;
+    }
+}

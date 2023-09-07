@@ -1,0 +1,62 @@
+.docente{
+    display: flex;
+    margin: auto;
+    max-width: 500px;
+    gap: 1rem;
+    align-items: center;
+    padding: 1rem;
+    border-radius: 25px;
+    box-shadow: rgba(0,0,0,.5) 5px 5px 15px;
+}
+
+.docente img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.docenteInfo h3{
+    font-size: 1.2rem;
+}
+
+.docenteInfo h4{
+    font-style: italic;
+    font-weight: 100;
+    margin-bottom: 1rem;
+}
+
+.docuenteInfo span{
+    display: block;
+}
+.docentesContainer{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.docentesSection{
+    width: 100%;
+}
+
+.docentesSection h2{
+    margin-bottom: 2rem;
+}
+
+.email,
+.cv{
+    color: #E4852D;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 578px){
+    .docente{
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+        padding: 1rem 2rem;
+    }
+
+    
+}

@@ -1,0 +1,32 @@
+{
+    "docentes":[
+        {
+            "nombre": "Dr. Jaime Arturo Matus Gardea",
+            "cargo": "Profesor investigador titular",
+            "titulo": "Doctorado en Economía en la Universidad de Purdue, Estados Unidos de América",
+            "sni": 2,
+            "email": "jsalazar@colpos.mx",
+            "cv": "",
+            "foto": "/docentes/jaime.jpg"
+        },
+        {
+            "nombre": "Dra. Ángela Fontes Carrillo",
+            "cargo": "Profesora investigadora",
+            "titulo": "Doctora en Desarrollo sustentable, Universidad Politécnica de Madrid",
+            "sni": 2,
+            "email": "afontes@colpos.mx",
+            "cv": "",
+            "foto": "docentes/angela.jpg"
+        },
+        {
+            "nombre": "Dr. Oscar Antonio Arana Coronado",
+            "cargo": "Profesor investigador",
+            "titulo": "Doctor en Desarrollo sustentable, Universidad Politécnica de Madrid",
+            "sni": 2,
+            "email": "aranaosc@colpos.mx",
+            "cv": "",
+            "foto": "/docentes/oscar.jpg"
+        }
+
+    ]
+}

@@ -1,0 +1,85 @@
+.materias{
+    margin: auto;
+    border-collapse: collapse;
+    box-shadow: rgba(0,0,0,.5) 5px 5px 15px;
+    border-radius: 15px;
+    padding: 1rem;
+    max-width: 750px;
+    overflow: hidden;
+}
+
+.materias th{
+    text-align: left;
+    padding: .8rem 1.6rem;
+}
+
+
+.materias td{
+    padding: .8rem 1.6rem;
+}
+
+.materias tr:nth-child(2n-1){
+    background-color: rgb(243, 243, 243);
+}
+
+.materias h3{
+    margin-bottom: 1rem;
+}
+
+.tipo{
+    color: #E4852D;
+    font-weight: bold;
+}
+.cuatrimestre{
+    background-color: rgb(161, 161, 161);
+    color: white;
+}
+
+.materias tr:first-child{
+    background-color: #001B48;
+    color: white;
+}
+@media screen and (max-width: 800px) {
+    .materias th{
+        font-size: 1rem;
+        padding: .5rem 1rem;
+    }
+    
+    .materias td{
+        font-size: .75rem;
+        padding: .5rem 1rem;
+    }
+}
+@media screen and (max-width: 690px) {
+
+    .materias{
+        border-radius: 10px;
+    }
+    .materias th{
+        font-size: .75rem;
+        padding: .5rem 1rem;
+        
+    }
+    
+    .materias td{
+        font-size: .75rem;
+        padding: .5rem 1rem;
+    }
+}
+@media screen and (max-width: 400px) {
+
+    .materias{
+        border-radius: 5px;
+    }
+
+    .materias th{
+        font-size: .65rem;
+        padding: .4rem .8rem;
+        
+    }
+    
+    .materias td{
+        font-size: .65rem;
+        padding: .4rem .8rem;
+    }
+}

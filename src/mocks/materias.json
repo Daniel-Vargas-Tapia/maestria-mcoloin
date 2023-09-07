@@ -1,0 +1,184 @@
+{
+    "materias" : [
+                {
+                    "cuatrimestre": "1",
+                    "tipo": "ES",
+                    "nombre": " Negocios Internacionales",
+                    "horasSemana": "7",
+                    "creditos": "7",
+                    "objetivo": "El alumno será capaz de asociar las culturas, técnicas y estrategias con los procesos de negociación comercial para utilizarlos en el desarrollo de negocios internacionales exitosos.",
+                    "justificacion": "Formar profesionistas que desarrollen habilidades para poner en práctica técnicas de negociación con contrapartes extranjeras para el mejor logro de los objetivos y metas de las organizaciones en los mercados mundiales."
+                },
+                {
+                    "cuatrimestre": "1",
+                    "tipo": "CV",
+                    "nombre": "Administración de la Cadena de Suministro",
+                    "horasSemana": "6",
+                    "creditos": "6",
+                    "objetivo": "El alumno será capaz de diseñar una cadena de suministro para lograr ventajas competitivas en una organización.",
+                    "justificacion": "Formar profesionales con una visión sistémica de la cadena de suministro para la toma estratégica de decisiones."
+                },
+                {
+                    "cuatrimestre": "1",
+                    "tipo": "TR",
+                    "nombre": "Ética Empresarial",
+                    "horasSemana": "6",
+                    "creditos": "6",
+                    "objetivo": "El alumno será capaz de emplear argumentos éticos de validez universal en el desarrollo, promoción y defensa de actitudes y valores que determinan el rumbo de la empresa, con la finalidad de que el ser humano pueda vivir armónicamente con los seres del medio ambiente natural y que la empresa logre los fines para la cual fue diseñada.",
+                    "justificacion": "Formar profesionales con valores que contribuyan a una vida de negocios con responsabilidad, para lograr  contrarrestar factores que inciden negativamente en la vida y el desarrollo de las actividades propiamente humanas, esto es, la corrupción, la mentira o falsedad, el tráfico de drogas, la violencia y delincuencia organizada, entre otros."
+                },
+                {
+                    "cuatrimestre": "2",
+                    "tipo": "TR",
+                    "nombre": "Metodología de la Investigación",
+                    "horasSemana": "4",
+                    "creditos": "4",
+                    "objetivo": "El alumno será capaz de realizar investigación  documental y de campo a través de procedimientos sistemáticos que den solución a problemas y necesidades empresariales y de la sociedad.",
+                    "justificacion": "Formar profesionales que puedan aplicar los diversos métodos y técnicas asociadas a la investigación generando conocimiento."
+                },
+                {
+                    "cuatrimestre": "2",
+                    "tipo": "ES",
+                    "nombre": "Logística de la Producción",
+                    "horasSemana": "7",
+                    "creditos": "7",
+                    "objetivo": "El alumno será capaz de desarollar la estructura de planeación táctica y operativa para lograr una producción de bienes y/o servicios con un enfoque competitivo y orientado a la integración de proveedores y a la satisfacción del cliente.",
+                    "justificacion": "Formar profesionales  que integren el proceso productivo con la adquisición de insumos y  componentes a fin de garantizar productos terminados en tiempo, lugar y calidad requeridos."
+                },
+                {
+                    "cuatrimestre": "2",
+                    "tipo": "ES",
+                    "nombre": "Marketing Internacional",
+                    "horasSemana": "6",
+                    "creditos": "6",
+                    "objetivo": "El alumno será capaz de comprender  cómo se elabora y cómo se pone en práctica un plan de mercadotecnia con un enfoque global.",
+                    "justificacion": "Formar profesionales que sean capaces de  elaborar un plan de mercadotecnia internacional para un producto específico en un mercado internacional."
+                },
+                {
+                    "cuatrimestre": "3",
+                    "tipo": "ES",
+                    "nombre": "Sistema Jurídico del Comercio Internacional",
+                    "horasSemana": "7",
+                    "creditos": "7",
+                    "objetivo": "El alumno será capaz de identificar la legislación que regula el comercio internacional,  así como identificar los beneficios que ofrece. para lograr un cumplimiento efectivo de la misma.",
+                    "justificacion": "Formar profesionales que apliquen las disposiciones legales que regulan los intercambios comerciales internacionales."
+                },
+                {
+                    "cuatrimestre": "3",
+                    "tipo": "ES",
+                    "nombre": "Envase y Embalaje",
+                    "horasSemana": "5",
+                    "creditos": "5",
+                    "objetivo": "El alumno será capaz de reconocer el tipo de envase y embalaje adecuado a la normatividad nacional e internacional como parte de un correcto manejo y distribución de la mercancía.",
+                    "justificacion": "Formar profesionales que tengan los criterios de decisión para evaluar materiales y diseños de empacado para una operación logística eficiente."
+                },
+                {
+                    "cuatrimestre": "3",
+                    "tipo": "TR",
+                    "nombre": "Seminario de Casos",
+                    "horasSemana": "8",
+                    "creditos": "8",
+                    "objetivo": "El alumno será capaz de evaluar casos de actualidad de logística y comercio internacional a través del análisis comparado para identificar causas-efectos, procesos, resultados y oportunidades de negocio.",
+                    "justificacion": "Formar profesionales con las competencias requeridas para analizar casos de éxito  de empresas multinacionales mediante el estudio de información cualitativa y cuantitativa."
+                },
+                {
+                    "cuatrimestre": "4",
+                    "tipo": "ES",
+                    "nombre": " Operaciones Aduaneras",
+                    "horasSemana": "6",
+                    "creditos": "6",
+                    "objetivo": "El alumno será capaz de aplicar el método de clasificación de las mercancías del comercio internacional para el cumplimiento de las obligaciones fiscales, arancelarias, no arancelarias, así como los actos y formalidades para las operaciones aduanales de importación, exportación y tránsito de mercancías.",
+                    "justificacion": "Formar profesionistas que clasifiquen las mercancías  de comercio internacional a fin de identificar de manera clara y precisa el arancel correspondiente a pagar, así como el cumplimiento de las regulaciones no arancelarias, a las cuales estén sujetas."
+                },
+                {
+                    "cuatrimestre": "4",
+                    "tipo": "ES",
+                    "nombre": "Sistemas de Distribución ",
+                    "horasSemana": "7",
+                    "creditos": "7",
+                    "objetivo": "El alumno será capaz de  tomar decisiones logísticas basadas en costos y niveles de servicio mediante la integración de la mercadotencia en los canales de distribución.",
+                    "justificacion": "Formar profesionales que sean capaces de minimizar los costos de distribución con un enfoque de costo total de la cadena de suministros."
+                },
+                {
+                    "cuatrimestre": "4",
+                    "tipo": "TR",
+                    "nombre": "Seminario de Investigación I",
+                    "horasSemana": "8",
+                    "creditos": "8",
+                    "objetivo": "El alumno será capaz de desarrollar el planteamiento del problema, los objetivos, justificación  y el marco teórico de su Tesis, utilizando el método científico.",
+                    "justificacion": "Formar profesionales que tengan la capacidad de desarrollar el marco teórico de su investigación."
+                },
+                {
+                    "cuatrimestre": "5",
+                    "tipo": "CV",
+                    "nombre": "Sistema de Transporte Muntimodal e Intermodal",
+                    "horasSemana": "6",
+                    "creditos": "6",
+                    "objetivo": "El alumno será capaz de resolver problemas técnicos, operativos y administrativos del transporte multimodal, y podrá recomendar las soluciones tecnológicas y administrativas más apropiadas.",
+                    "justificacion": "Formar profesionales con un enfoque de integración del sistema de transporte, para ello el transporte intermodal resulta indispensable, debido entre otras cosas a que las tecnologías del transporte intermodal se han desarrollado aceleradamente, los equipos y vehículos, así como los contenedores son de un alto grado de especialización y complejidad, así mismo el ambiente administrativo, regulatorio y de contratación de los servicios intermodales se ha vuelto complejo, tanto a nivel nacional como, a nivel internacional. "
+                },
+                {
+                    "cuatrimestre": "5",
+                    "tipo": "CV",
+                    "nombre": "Plan de Negocios Internacionales",
+                    "horasSemana": "7",
+                    "creditos": "7",
+                    "objetivo": "El alumno será capaz de estudiar la empresa y su entorno integrando un plan de negocios de exportación,  para considerar el financiamiento y la gestión de riesgos de la organización.",
+                    "justificacion": "Formar profesionales que integren los conocimientos adquiridos"
+                },
+                {
+                    "cuatrimestre": "5",
+                    "tipo": "TR",
+                    "nombre": "Seminario de Investigación II",
+                    "horasSemana": "9",
+                    "creditos": "9",
+                    "objetivo": "El alumno será capaz de justificar el tipo de investigación,  las hipotesís y el diseño. Tomara la muestra y recopilara los datos.",
+                    "justificacion": "Formar profesionales que establezcan cómo responderán a las preguntas y objetivos del problema de investigación."
+                },
+                {
+                    "cuatrimestre": "6",
+                    "tipo": "TR",
+                    "nombre": "Seminario de Tesis",
+                    "horasSemana": "10",
+                    "creditos": "10",
+                    "objetivo": "El alumno será capaz de interpretar científicamente datos, establecer y comunicar las conclusiones y recomendaciones de la investigación.",
+                    "justificacion": "Formar profesionales que puedan obtener formalmente respuestas a las preguntas de  investigación,    contextualizar los hallazgos, plantear recomendaciones y perspectivas futuras."
+                },
+                {
+                    "cuatrimestre": "6",
+                    "tipo": "OP",
+                    "nombre": "Planeación Aduanera",
+                    "horasSemana": "6",
+                    "creditos": "6",
+                    "objetivo": "El alumno será capaz de planear las operaciones de comercio exterior, para facilitar la toma de decisiones antes, durante y después del despacho aduanero de las mercancías.",
+                    "justificacion": "Formar profesionistas que conozcan y apliquen la planeación de las operaciones aduaneras, permitiendo desarrollar procedimientos que cumplan el marco jurídico."
+                },
+                {
+                    "cuatrimestre": "6",
+                    "tipo": "OP",
+                    "nombre": "Emprendurismo e Internacionalización de Empresa",
+                    "horasSemana": "6",
+                    "creditos": "6",
+                    "objetivo": "El alumno será capaz de detectar oportunidades de negocios  mediante  estrategias innovadoras para un mejor aprovechamiento de los mercados internacionales.    ",
+                    "justificacion": "Formar profesionales que puedan abordar emprendedora e innovativamente las oportunidades y desafíos que existen  en la economía nacional e internacionalmente."
+                },
+                {
+                    "cuatrimestre": "6",
+                    "tipo": "OP",
+                    "nombre": "Sistema de Calidad",
+                    "horasSemana": "6",
+                    "creditos": "6",
+                    "objetivo": "El alumno será capaz  de implantar  sistemas de gestión de la calidad a través del  de la aplicación de herramientas asociadas a la mejora continua de los procesos de la organización.",
+                    "justificacion": "Formar profesionales con un enfoque a la satisfacción del cliente por medio de la estandarización de operaciones logísticas y sistemas de gestión de la calidad."
+                },
+                {
+                    "cuatrimestre": "6",
+                    "tipo": "OP",
+                    "nombre": "Simulación Logística",
+                    "horasSemana": "6",
+                    "creditos": "6",
+                    "objetivo": "El alumno será capaz de aplicar la técnica de la simulación para elaborar modelos de simulación de los sistemas logísticos y de transporte.",
+                    "justificacion": "Formar profesionistas que apoyen la toma de decisiones con base en modelos de simulación.   "
+                }  
+    ]
+}

@@ -22,6 +22,9 @@ export function useSection () {
 
   function changeSection (newSection) {
     setSection(newSection)
+    const header = document.getElementById('mainHeader')
+    const { height } = header.getBoundingClientRect()
+    window.scrollTo({ behavior: 'smooth', top: height })
   }
 
   return { pages, CurrentSection: pages[section], changeSection, section }

@@ -1,0 +1,77 @@
+{
+    "fechas":[
+
+        {
+            "id": "1",
+            "nombre": "Enero",
+            "fecha": "2023-05-01",
+            "evento": "Inicio de Cuatrimestre"
+        },
+        {
+            "id": "2",
+            "nombre": "Febrero",
+            "fecha": "",
+            "evento": ""
+        },
+        {
+            "id": "3",
+            "nombre": "Marzo",
+            "fecha": "",
+            "evento": ""
+        },
+        {
+            "id": "4",
+            "nombre": "Abril",
+            "fecha": "2023-04-26",
+            "evento": "Fin Cuatrimestre"
+        },
+        {
+            "id": "5",
+            "nombre": "Mayo",
+            "fecha": "2023-05-09",
+            "evento": "Inicio de Cuatrimestre"
+        },
+        {
+            "id": "6",
+            "nombre": "Junio",
+            "fecha": "",
+            "evento": ""
+        },
+        {
+            "id": "7",
+            "nombre": "Julio",
+            "fecha": "",
+            "evento": ""
+        },
+        {
+            "id": "8",
+            "nombre": "Agosto",
+            "fecha": "2023-08-23",
+            "evento": "Fin de Cuatrimestre"
+        },
+        {
+            "id": "9",
+            "nombre": "Septiembre",
+            "fecha": "2023-09-05",
+            "evento": "Inicio de Cuatrimestre"
+        },
+        {
+            "id": "10",
+            "nombre": "Octubre",
+            "fecha": "",
+            "evento": ""
+        },
+        {
+            "id": "11",
+            "nombre": "Noviembre",
+            "fecha": "",
+            "evento": ""
+        },
+        {
+            "id": "12",
+            "nombre": "Diciembre",
+            "fecha": "2023-12-22",
+            "evento": "Fin de Cuatrimestre"
+        }
+    ]
+}

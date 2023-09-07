@@ -20,7 +20,7 @@
 }
 .description .header{
     background: url(../assets/footer-background.jpg);
-    background-size: 100%;
+    background-size: cover;
     background-position: center;
     color: white;
     border-radius: 25px 25px 0 0;
