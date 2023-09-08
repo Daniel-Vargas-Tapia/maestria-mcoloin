@@ -1,13 +1,12 @@
 /* eslint-disable react/jsx-key */
 import { fechas } from '@/mocks/fechas.json'
 import styles from './fecha_admision.module.css'
+import { useFechas } from '../hooks/useFechas'
 import { IconBalloon, IconChristmasTree, IconEyeglass, IconFlag, IconFlower, IconGenderFemale, IconHeart, IconHeartHandshake, IconPumpkinScary, IconSkull, IconSnowflake, IconTie } from '@tabler/icons-react'
-import { DATABASE_URL, KEY } from '@/database/authorization.js'
-import { createClient } from '@supabase/supabase-js'
-import { useEffect } from 'react'
-
 const icons = [<IconChristmasTree />, <IconHeart />, <IconGenderFemale />, <IconBalloon />, <IconFlower />, <IconTie />, <IconHeartHandshake />, <IconEyeglass />, <IconFlag />, <IconPumpkinScary />, <IconSkull />, <IconSnowflake />]
 export function FechaAdmision () {
+  const { fechas: dates } = useFechas()
+  console.log(dates)
   return (
     <section className={styles.fechas}>
       {fechas.map((fecha, index) => (
