@@ -6,6 +6,7 @@ import { PerfilEgreso } from '../pages/perfil_egreso'
 import { PerfilIngreso } from '../pages/perfil_ingreso'
 import { PlanEstudios } from '../pages/plan_estudios'
 import { RequisitosIngreso } from '../pages/requisitos_ingreso'
+import { MapaCurricular } from '../pages/mapa_curricular'
 
 const pages = {
   inicio: Inicio,
@@ -14,7 +15,8 @@ const pages = {
   perfil_egreso: PerfilEgreso,
   perfil_ingreso: PerfilIngreso,
   plan_estudios: PlanEstudios,
-  requisitos_ingreso: RequisitosIngreso
+  requisitos_ingreso: RequisitosIngreso,
+  mapa_curricular: MapaCurricular
 }
 
 export function useSection () {

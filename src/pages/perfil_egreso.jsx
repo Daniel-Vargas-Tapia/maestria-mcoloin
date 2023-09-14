@@ -5,7 +5,7 @@ export function PerfilEgreso () {
     <section className={styles.perfilEgreso}>
       <img src={perfilEgresoImg} alt='Alumno sosteniendo Libros' />
       <div>
-        <h2>Perfil Egreso</h2>
+        <h2>Perfil de Egreso</h2>
         <ul>
           <li>Elaborar estrategias de operación y comercialización que contribuyan al posicionamiento de las organizaciones, con responsabilidad social, en mercados internacionales.</li>
           <li>Interpretar la normativa aplicable a mercancías y sus medios de conducción en su ámbito nacional e internacional, para la correcta movilización y comercialización de productos.</li>

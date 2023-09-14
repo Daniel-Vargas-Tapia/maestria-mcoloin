@@ -12,11 +12,11 @@
     padding: 0;
     box-sizing: border-box;
     font-family: inter,'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    
 }
 
 main{
     display: flex;
+
 }
 
 .currentContainer{
@@ -29,7 +29,6 @@ main{
     main{
         flex-direction: column;
     }
-
     .currentContainer{
         min-height: auto;
     }

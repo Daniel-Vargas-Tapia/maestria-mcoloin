@@ -1,3 +1,8 @@
+.docentesSection{
+    width: 100%;
+    animation: visibility 0.2s ease-in;
+}
+
 .docente{
     display: flex;
     margin: auto;
@@ -7,6 +12,7 @@
     padding: 1rem;
     border-radius: 25px;
     box-shadow: rgba(0,0,0,.5) 5px 5px 15px;
+    
 }
 
 .docente img{
@@ -36,9 +42,6 @@
     gap: 1rem;
 }
 
-.docentesSection{
-    width: 100%;
-}
 
 .docentesSection h2{
     margin-bottom: 2rem;
@@ -59,4 +62,9 @@
     }
 
     
+}
+
+@keyframes visibility{
+    0%{opacity: 0}
+    100%{opacity: 1}
 }

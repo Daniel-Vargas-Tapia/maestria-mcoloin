@@ -6,6 +6,8 @@
     justify-content: center;
     margin-left: auto;
     margin-right: auto;
+    animation: visibility 0.2s ease-in;
+
 }
 
 .materias{
@@ -92,4 +94,9 @@
         font-size: .65rem;
         padding: .4rem .8rem;
     }
+}
+
+@keyframes visibility{
+    0%{opacity: 0}
+    100%{opacity: 1}
 }

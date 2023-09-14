@@ -4,6 +4,7 @@
     border-radius: 25px;
     max-width: 750px;
     margin: auto;
+    animation: visibility 0.2s ease-in;
 }
 
 .perfilIngreso h2{
@@ -35,4 +36,9 @@
     top: 50%;
     transform: translateY(-50%);
     left: -1rem;
+}
+
+@keyframes visibility{
+    0%{opacity: 0}
+    100%{opacity: 1}
 }

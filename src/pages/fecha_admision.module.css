@@ -5,6 +5,7 @@
     align-items: start;
     margin: auto;
     gap: 2rem;
+    animation: visibility 0.2s ease-in;
 }
 
 .fechaDescription{
@@ -77,4 +78,9 @@
     .fechaDescription{
         gap: .5rem;
     }
+}
+
+@keyframes visibility{
+    0%{opacity: 0}
+    100%{opacity: 1}
 }

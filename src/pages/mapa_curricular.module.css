@@ -1,0 +1,197 @@
+.contenedorTabla{
+    margin: 0;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.tablaEscritorio{
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 10px;
+}
+
+.tablaEscritorio th, .tablaEscritorio td {
+    padding: 10px;
+    text-align: center;
+    /* border: 1px solid black; */
+}
+
+.TablaInterior{
+    min-width:130px;
+    border-collapse: collapse;
+}
+
+.TablaInterior th, .TablaInterior td {
+    border: 1px solid #000000;
+    text-align: center;
+}
+
+.TablaInterior th{
+    padding: 5px;
+}
+
+.TablaInterior td{
+    color: #0e3b43;
+    padding: 1px;
+}
+
+.ColorLateral{
+    border-radius: 5px;
+    background-color: #0e3b43;
+    width: 4vh;
+}
+
+.ColorCiclos{
+    border-radius: 5px;
+    background-color: #0e3b43;
+    color: white;
+    font-weight: bold;
+}
+
+.tablaEscritorio .TituloCuatrimestre{
+    position: relative;
+    padding: 18px 10px 10px;
+    text-align: center;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.tablaEscritorio .TituloCuatrimestre::before {
+    content: "";
+    position: absolute;
+    top: 22%;
+    left: 5%;
+    width: 90%; 
+    height: 80%; 
+    background-color: #a3bbad;
+    border-radius: 5px;
+    z-index: -1;
+}
+
+.NombreMaterias{
+    background-color: #f3f3f3;
+    max-height: 13vh;
+    height: 10vh;
+    width: 50vh;
+}
+
+.TituloTabla{
+    font-size: 13px;
+}
+
+.ApartadoIMG{
+    height: 8vh; 
+}
+
+.IMGSEP{
+    float: left;
+    padding: 0;
+    height: 70px;
+}
+
+.IMGUPT{
+    padding: 0;
+    height: 60px;
+    float: right;
+}
+
+.tablaResponsive{
+    display: none;
+}
+
+
+@media (max-width: 1050px) {
+    .tablaResponsive th, .tablaResponsive td {
+        padding: 8px;
+        text-align: center;
+        /* border: 1px solid black; */
+    }
+    .tablaResponsive{
+        display: block;
+    }
+
+    .tablaEscritorio{
+        display: none;
+    }
+
+    .tablaResponsive{
+        width: 100%;
+        border-collapse: collapse;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 10px;
+    }
+
+    .NombreMaterias tr{
+        max-height: 10vh;
+        height: 15vh;
+        width: 50vh;
+    }
+
+    .IMGSEP{
+        float: left;
+        padding: 0;
+        height: 40px;
+    }
+    
+    .IMGUPT{
+        padding: 0;
+        height: 30px;
+        float: none;
+    }
+    .TablaInterior th{
+        padding: 2px;
+        min-height: 70px;
+    }
+
+    .tablaResponsive .TituloCuatrimestre{
+        position: relative;
+        padding: 16px 10px 10px;
+        text-align: center;
+        color: #ffffff;
+        font-weight: bold;
+    }
+    
+    .tablaResponsive .TituloCuatrimestre::before {
+        content: "";
+        position: absolute;
+        top: 20%;
+        left: 5%;
+        width: 90%; 
+        height: 80%; 
+        background-color: #a3bbad;
+        border-radius: 5px;
+        z-index: -1;
+    }
+}
+
+@media (max-width: 550px) {
+    .IMGSEP{
+
+        height: 30px;
+
+    }
+    
+    .tablaResponsive{
+        
+        font-size: 8px;
+    }
+
+    .NombreMaterias tr{
+        max-height: 10vh;
+        height: 15vh;
+        width: 50vh;
+    }
+
+    .TablaInterior{
+        min-width:64px;
+        border-collapse: collapse;
+    }
+    .TablaInterior td{
+        padding: 1px;
+    }
+
+    .TablaInterior th{
+        padding: 2px;
+        min-height: 50px;
+    }
+}

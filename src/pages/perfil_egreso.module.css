@@ -4,6 +4,7 @@
     align-items: center;
     margin: auto;
     gap: 1rem;
+    animation: visibility 0.2s ease-in;
 }
 
 .perfilEgreso div{
@@ -52,3 +53,7 @@
 
 }
 
+@keyframes visibility{
+    0%{opacity: 0}
+    100%{opacity: 1}
+}
