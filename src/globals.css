@@ -1,9 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter&family=Poppins&display=swap');
+
+:root{
+    --primary-color: #0E3B43;
+    --accent-color: #357266;
+    --complementary-color: #a3bbad;
+    --secondary-color: #fda947;
+}
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: inter,'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
 }
 
 main{

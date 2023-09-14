@@ -19,7 +19,7 @@
     padding: 2rem;
 }
 .description .header{
-    background: url(../assets/footer-background.jpg);
+    background: url(../assets/04.jpg);
     background-size: cover;
     background-position: center;
     color: white;
@@ -44,7 +44,7 @@
     position: absolute;
     width: 8px;
     height: 8px;
-    background-color: #E4852D;
+    background-color: var(--secondary-color);
     border-radius: 50%;
     top: 50%;
     left: -1rem;

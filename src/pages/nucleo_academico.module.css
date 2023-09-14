@@ -46,7 +46,7 @@
 
 .email,
 .cv{
-    color: #E4852D;
+    color: var(--accent-color);
     font-weight: bold;
 }
 

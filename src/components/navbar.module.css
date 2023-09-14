@@ -1,9 +1,12 @@
 nav{
     width: 250px;
-    background-color: #001B48;
+    background-color: var(--primary-color);
     color: white;
     display: flex;
     align-items: center;
+    margin: 1rem;
+    border-radius: 25px;
+    height: fit-content;
 }
 nav ul{
     display: flex;
@@ -40,14 +43,14 @@ nav ul button{
 }
 
 .active{
-    background-color: #E4852D;
+    background-color: var(--accent-color);
 }
 
 .notActive{
-    background-color: #001B48;
+    background-color: var(--primary-color);
 }
 nav ul button:hover{
-    background-color: #E4852D;
+    background-color: var(--accent-color);
 }
 
 @media screen and (max-width: 768px) {
@@ -56,9 +59,13 @@ nav ul button:hover{
     }
     nav ul button{
         width: fit-content;
+        padding: .8rem;
     }
     nav{
         width: fit-content;
+    }
+    nav ul {
+        padding: .5rem;
     }
 }
 
@@ -71,6 +78,8 @@ svg{
         position: sticky;
         top: 0;
         z-index: 999;
+        margin: auto;
+        border-radius: 0px;
     }
     nav ul{
         flex-direction: row;

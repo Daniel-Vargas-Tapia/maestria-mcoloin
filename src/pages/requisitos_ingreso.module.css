@@ -39,7 +39,7 @@
     position: absolute;
     width: 8px;
     height: 8px;
-    background-color: #E4852D;
+    background-color: var(--secondary-color);
     border-radius: 50%;
     top: .4rem;
     left: -1rem;

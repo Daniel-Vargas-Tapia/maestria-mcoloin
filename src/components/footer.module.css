@@ -1,6 +1,7 @@
 .mainFooter{
-    background: url(../assets/footer-background.jpg);
+    background: url(../assets/03.jpg);
     background-size: cover;
+    background-position: center;
     color: white;
     display: flex;
     padding: 4rem;
@@ -35,12 +36,12 @@
 }
 
 .mainFooter a:hover{
-    color: #E4852D;
+    color: var(--accent-color);
 }
 
 .mainFooter h2{
     margin-bottom: 1rem;
-    color: #E4852D;
+    color: white;
     text-shadow: rgba(0,0,0,.5) 5px 5px 5px;
 }
 

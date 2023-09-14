@@ -1,5 +1,5 @@
 .mainHeader{
-    background: url(../assets/header-background-2.jpg);    
+    background: url(../assets/02.png);    
     background-size: cover;
     background-position: center;
     min-height: 80vh;
@@ -18,7 +18,7 @@
     position: absolute;
     top: 0;
     left: 0;
-    background: url(../assets/header-background.jpg);    
+    background: url(../assets/02.png);    
     background-size: cover;
     animation-name: fadeout;
     animation-duration: 60s;

@@ -2,7 +2,7 @@ import styles from './perfil_ingreso.module.css'
 export function PerfilIngreso () {
   return (
     <section className={styles.perfilIngreso}>
-      <h2>Perfil Ingreso</h2>
+      <h2>Perfil de Ingreso</h2>
       <p>La Maestría en Comercio y Logística Internacional está diseñada para preparar a profesionales altamente capacitados en la gestión de operaciones comerciales y logísticas a nivel internacional. Los candidatos ideales para ingresar a este programa deben reunir una serie de características y cualidades que les permitan aprovechar al máximo la experiencia de aprendizaje y contribuir de manera significativa al campo.</p>
       <ul>
         <li>
