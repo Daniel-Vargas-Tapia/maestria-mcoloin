@@ -25,7 +25,6 @@
     animation-iteration-count: infinite;
     animation-direction: alternate-reverse;
     background-position: center;
-    filter: blur(2px);
     
 }
 
@@ -51,7 +50,7 @@
     position: absolute;
     top: 0;
     left: 0;
-    background: linear-gradient(to bottom, rgb(0,0,0,.3), rgba(0,0,0,.5));
+    background: linear-gradient(to bottom, rgb(0,0,0,.3), rgba(0,0,0,.6));
 }
 
 .mainHeader h1{
