@@ -1,6 +1,7 @@
 .mapaCurricular{
     align-self: flex-start;
     width: 100%;
+    animation: visibility 0.2s ease-in;
 }
 
 .contenedorMaterias{
