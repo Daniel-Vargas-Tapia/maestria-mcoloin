@@ -1,0 +1,113 @@
+{
+    "materias": [
+      {
+        "nombre": "NEGOCIOS INTERNACIONALES",
+        "clave": "NIN-ES",
+        "creditos": "7-105-7",
+        "cuatrimestre": 1
+      },
+      {
+        "nombre": "ADMINISTRACIÓN DE LA CADENA DE SUMINISTRO",
+        "clave": "ACS-CV",
+        "creditos": "6-90-6",
+        "cuatrimestre": 1
+      },
+      {
+        "nombre": "ÉTICA EMPRESARIAL",
+        "clave": "EEM-TR",
+        "creditos": "6-90-6",
+        "cuatrimestre": 1
+      },
+      {
+        "nombre": "MARKETING INTERNACIONAL",
+        "clave": "MAI-ES",
+        "creditos": "6-90-6",
+        "cuatrimestre": 2
+      },
+      {
+        "nombre": "LOGÍSTICA DE LA PRODUCCIÓN",
+        "clave": "LDP-ES",
+        "creditos": "7-105-7",
+        "cuatrimestre": 2
+      },
+      {
+        "nombre": "METODOLOGÍA DE LA INVESTIGACIÓN",
+        "clave": "MDI-TR",
+        "creditos": "4-60-4",
+        "cuatrimestre": 2
+      },
+      {
+        "nombre": "SISTEMA JURÍDICO DEL COMERCIO INTERNACIONAL",
+        "clave": "SJC-ES",
+        "creditos": "7-105-7",
+        "cuatrimestre": 3
+      },
+      {
+        "nombre": "ENVASE Y EMBALAJE",
+        "clave": "EEM-ES",
+        "creditos": "5-75-5",
+        "cuatrimestre": 3
+      },
+      {
+        "nombre": "SEMINARIO DE CASOS",
+        "clave": "SDC-TR",
+        "creditos": "8-120-8",
+        "cuatrimestre": 3
+      },
+      {
+        "nombre": "OPERACIONES ADUANERAS",
+        "clave": "OPA-ES",
+        "creditos": "6-90-6",
+        "cuatrimestre": 4
+      },
+      {
+        "nombre": "SISTEMAS DE DISTRIBUCIÓN",
+        "clave": "SDI-ES",
+        "creditos": "7-105-7",
+        "cuatrimestre": 4
+      },
+      {
+        "nombre": "SEMINARIO DE INVESTIGACIÓN I",
+        "clave": "SI1-TR",
+        "creditos": "8-120-8",
+        "cuatrimestre": 4
+      },
+      {
+        "nombre": "PLAN DE NEGOCIOS INTERNACIONALES",
+        "clave": "PNI-CV",
+        "creditos": "7-105-7",
+        "cuatrimestre": 5
+      },
+      {
+        "nombre": "SISTEMAS DE TRANSPORTE MULTIMODAL E INTERMODAL",
+        "clave": "STM-CV",
+        "creditos": "6-90-6",
+        "cuatrimestre": 5
+      },
+      {
+        "nombre": "SEMINARIO DE INVESTIGACIÓN II",
+        "clave": "SI2-TR",
+        "creditos": "9-135-9",
+        "cuatrimestre": 5
+      },
+      {
+        "nombre": "OPTATIVA",
+        "clave": "OP1-ES",
+        "creditos": "6-90-6",
+        "cuatrimestre": 6
+      },
+      {
+        "nombre": "OPTATIVA",
+        "clave": "OP2-ES",
+        "creditos": "6-90-6",
+        "cuatrimestre": 6
+      },
+      {
+        "nombre": "SEMINARIO DE TESIS",
+        "clave": "SDT-TR",
+        "creditos": "10-150-10",
+        "cuatrimestre": 6
+      }
+    ]
+  }
+  
