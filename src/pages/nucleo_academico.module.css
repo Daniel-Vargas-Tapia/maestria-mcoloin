@@ -70,6 +70,13 @@
     .icon{
         justify-content: center;
     }  
+
+    .docente img{
+        width: 100px;
+        height: 100px;
+        object-fit: contain;
+        border-radius: 50%;
+    }
 }
 
 @keyframes visibility{
