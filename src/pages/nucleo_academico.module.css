@@ -6,7 +6,7 @@
 .docente{
     display: flex;
     margin: auto;
-    max-width: 500px;
+    max-width: 550px;
     gap: 1rem;
     align-items: center;
     padding: 1rem;
@@ -51,6 +51,14 @@
 .cv{
     color: var(--accent-color);
     font-weight: bold;
+    text-decoration: none;
+}
+
+.icon{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: .25rem;
 }
 
 @media screen and (max-width: 578px){
