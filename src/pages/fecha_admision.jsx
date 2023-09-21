@@ -2,13 +2,12 @@
 import styles from './fecha_admision.module.css'
 import { IconFlag } from '@tabler/icons-react'
 export function FechaAdmision () {
-  // const FechaActual = new Date()
-  // const mesActual = FechaActual.getMonth() + 1
+  const FechaActual = new Date()
+  const mesActual = FechaActual.getMonth() + 1
   let mensaje = ''
   let proximoPeriodo = false
   let flyer = false
   let inscripciones = false
-  const mesActual = 11
   if (mesActual === 11 || mesActual === 3 || mesActual === 7) {
     flyer = true
     proximoPeriodo = false
