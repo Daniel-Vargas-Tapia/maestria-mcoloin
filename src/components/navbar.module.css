@@ -95,18 +95,19 @@ svg{
     }
 }
 @media screen and (max-width: 400px) {
-    nav{
-        width: 100%;
-    }
     nav ul{
-        flex-direction: row;
-        gap: .5rem;
+        gap: .45rem;
     }
     nav ul button{
-        padding: .30rem;
+        padding: .28rem;
         border-radius: 50%;
         gap: 0;
         text-align: center;
+    }
+
+    svg{
+        width: 22px;
+        height: 22px;
     }
 }
 

@@ -6,7 +6,7 @@
 .docente{
     display: flex;
     margin: auto;
-    max-width: 500px;
+    max-width: 550px;
     gap: 1rem;
     align-items: center;
     padding: 1rem;
@@ -42,7 +42,6 @@
     gap: 1rem;
 }
 
-
 .docentesSection h2{
     margin-bottom: 2rem;
 }
@@ -51,6 +50,14 @@
 .cv{
     color: var(--accent-color);
     font-weight: bold;
+    text-decoration: none;
+    display: block;
+}
+
+.icon{
+    display: flex;
+    align-items: center;
+    gap: .25rem;
 }
 
 @media screen and (max-width: 578px){
@@ -60,8 +67,9 @@
         text-align: center;
         padding: 1rem 2rem;
     }
-
-    
+    .icon{
+        justify-content: center;
+    }  
 }
 
 @keyframes visibility{

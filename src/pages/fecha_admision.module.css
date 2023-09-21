@@ -1,35 +1,36 @@
-.fechas{
+.fechasSeccion{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+
+}
+
+.fechaAdmision{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: start;
-    margin: auto;
+    align-items: center;
     gap: 2rem;
+    padding: 2rem;
+    box-shadow: rgba(0,0,0,.5) 5px 5px 15px;
+    border-radius: 25px;
+    max-width: 800px;
+    margin: auto;
     animation: visibility 0.2s ease-in;
 }
 
-.fechaDescription{
-    display: flex;
-    align-items: center;
-    justify-content: start;
-    gap: 1rem;
+.fechaAdmision p{
+    font-size: 22px;
 }
 
-.fechas .fecha{
-    width: 100px;
-    height: 1rem;
-    font-weight: bold;
-}
-
-.fechas .mes{
-    color: var(--accent-color);
-}
-
-.fechas .icon{
-    background-color: var(--secondary-color);
+.icon{
+    background-color: var(--primary-color);
+    font-size: 100px;
     color: white;
-    width: 50px;
-    height: 50px;
+    width: 80px;
+    height: 80px;
     border-radius: 50%;
     display: flex;
     justify-content: center;
@@ -38,49 +39,38 @@
     flex-shrink: 0;
 }
 
-.fechaDescription .icon::after{
-    width: .2rem;
-    height: 1rem;
-    background-color: rgb(184, 184, 184);
-    content: "";
-    position: absolute;
-    bottom: -1.5rem;
-    border-radius: 2px;
+.imgFlyer{
+    width: 50vw;
 }
 
-.fechas .fechaDescription:last-child .icon::after{
-    display: none;
-}
 
 @media screen and (max-width: 768px){
-    .fechas{
+    .fechasSeccion{
         font-size: .75rem;
     }
-    .fechas .icon{
-        width: 35px;
-        height: 35px;
+    .icon{
+        width: 50px;
+        height: 50px;
     }
-    .fechaDescription{
-        gap: .6rem;
+    .fechaAdmision p{
+        font-size: 16px;
     }
-    .fechas .fecha{
-        width: 75px;
+    .imgFlyer{
+        width: 70vw;
     }
 }
 @media screen and (max-width: 500px){
-    .fechas{
+    .fechasSeccion{
         font-size: .7rem;
     }
-    .fechas .icon{
+    .fechasSeccion .icon{
         width: 35px;
         height: 35px;
     }
-    .fechaDescription{
-        gap: .5rem;
+    .fechaAdmision p{
+        font-size: 12px;
     }
-}
-
-@keyframes visibility{
-    0%{opacity: 0}
-    100%{opacity: 1}
+    .imgFlyer{
+        width: 90vw;
+    }
 }

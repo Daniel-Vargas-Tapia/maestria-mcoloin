@@ -1,197 +1,139 @@
-.contenedorTabla{
-    margin: 0;
-    padding: 10px;
-    box-sizing: border-box;
+.mapaCurricular{
+    align-self: flex-start;
+    width: 100%;
+    animation: visibility 0.2s ease-in;
 }
 
-.tablaEscritorio{
-    width: 100%;
-    border-collapse: collapse;
+.contenedorMaterias{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    margin: auto;
+}
+
+.materias{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
     font-size: 10px;
 }
 
-.tablaEscritorio th, .tablaEscritorio td {
-    padding: 10px;
+.materia{
+    max-width: 120px;
     text-align: center;
-    /* border: 1px solid black; */
+    border: solid 1px black;
 }
 
-.TablaInterior{
-    min-width:130px;
-    border-collapse: collapse;
+.materia header{
+    height: 100px;
+    background-color: #f3f3f3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: .5rem;
 }
 
-.TablaInterior th, .TablaInterior td {
-    border: 1px solid #000000;
+.materia .detalles{
+    display: flex;
+    justify-content: center;
+    height: 14px;
+    display: flex;
+    align-items: center;
+    border-top: solid 1px black;
+}
+
+.materia .detalles > *{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.materia .detalles span:first-child{
+    border-right: solid 1px black;
+}
+
+.cuatrimestre{
+    background-color: var(--complementary-color);
+    padding: .5rem;
     text-align: center;
-}
-
-.TablaInterior th{
-    padding: 5px;
-}
-
-.TablaInterior td{
-    color: #0e3b43;
-    padding: 1px;
-}
-
-.ColorLateral{
-    border-radius: 5px;
-    background-color: #0e3b43;
-    width: 4vh;
-}
-
-.ColorCiclos{
-    border-radius: 5px;
-    background-color: #0e3b43;
     color: white;
     font-weight: bold;
-}
-
-.tablaEscritorio .TituloCuatrimestre{
-    position: relative;
-    padding: 18px 10px 10px;
-    text-align: center;
-    color: #ffffff;
-    font-weight: bold;
-}
-
-.tablaEscritorio .TituloCuatrimestre::before {
-    content: "";
-    position: absolute;
-    top: 22%;
-    left: 5%;
-    width: 90%; 
-    height: 80%; 
-    background-color: #a3bbad;
     border-radius: 5px;
-    z-index: -1;
 }
 
-.NombreMaterias{
-    background-color: #f3f3f3;
-    max-height: 13vh;
-    height: 10vh;
-    width: 50vh;
+.ciclo{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    text-align: center;
+    padding: .5rem;
+    background-color: var(--primary-color);
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
 }
 
-.TituloTabla{
-    font-size: 13px;
+.columna{
+    width: 2rem;
+    height: 400px;
+    border-radius: 5px;
+    background-color: var(--primary-color);
+    align-self: flex-end;
 }
 
-.ApartadoIMG{
-    height: 8vh; 
+.logos{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.IMGSEP{
-    float: left;
-    padding: 0;
-    height: 70px;
+.logos img{
+    width: 150px;
+    aspect-ratio: 5/2;
+    object-fit: contain;
 }
 
-.IMGUPT{
-    padding: 0;
-    height: 60px;
-    float: right;
+.mapaCurricular h2{
+    max-width: 700px;
+    text-align: center;
+    margin: auto;
+    font-size: 1rem;
+    margin: 1rem auto;
 }
+@media screen and (max-width: 1170px){
 
-.tablaResponsive{
-    display: none;
-}
-
-
-@media (max-width: 1050px) {
-    .tablaResponsive th, .tablaResponsive td {
-        padding: 8px;
-        text-align: center;
-        /* border: 1px solid black; */
-    }
-    .tablaResponsive{
-        display: block;
-    }
-
-    .tablaEscritorio{
+    .columna{
         display: none;
     }
 
-    .tablaResponsive{
-        width: 100%;
-        border-collapse: collapse;
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 10px;
-    }
-
-    .NombreMaterias tr{
-        max-height: 10vh;
-        height: 15vh;
-        width: 50vh;
-    }
-
-    .IMGSEP{
-        float: left;
-        padding: 0;
-        height: 40px;
-    }
-    
-    .IMGUPT{
-        padding: 0;
-        height: 30px;
-        float: none;
-    }
-    .TablaInterior th{
-        padding: 2px;
-        min-height: 70px;
-    }
-
-    .tablaResponsive .TituloCuatrimestre{
-        position: relative;
-        padding: 16px 10px 10px;
-        text-align: center;
-        color: #ffffff;
-        font-weight: bold;
-    }
-    
-    .tablaResponsive .TituloCuatrimestre::before {
-        content: "";
-        position: absolute;
-        top: 20%;
-        left: 5%;
-        width: 90%; 
-        height: 80%; 
-        background-color: #a3bbad;
-        border-radius: 5px;
-        z-index: -1;
-    }
 }
+@media screen and (max-width: 578px){
 
-@media (max-width: 550px) {
-    .IMGSEP{
-
-        height: 30px;
-
+    .mapaCurricular h2{
+        font-size: .8rem;
     }
-    
-    .tablaResponsive{
-        
+
+}
+@media screen and (max-width: 400px){
+
+    .materias{
+        gap: .5rem;
+    }
+    .materia{
         font-size: 8px;
     }
 
-    .NombreMaterias tr{
-        max-height: 10vh;
-        height: 15vh;
-        width: 50vh;
+    .cuatrimestre{
+        padding: .5rem .8rem;
     }
 
-    .TablaInterior{
-        min-width:64px;
-        border-collapse: collapse;
-    }
-    .TablaInterior td{
-        padding: 1px;
-    }
+}
 
-    .TablaInterior th{
-        padding: 2px;
-        min-height: 50px;
-    }
+@keyframes visibility{
+    0%{opacity: 0}
+    100%{opacity: 1}
 }
