@@ -10,7 +10,7 @@
     justify-content: flex-end;
     padding: 4rem;
     gap: 2rem;
-    animation: fadeout 10s infinite alternate ease-in;
+    animation: fadeout 60s infinite alternate ease-in-out;
 }
 
 /* .backgroundHeader{
