@@ -1,4 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter&family=Poppins&display=swap');
+@font-face {
+    font-family: inter;
+    src: url(../src/assets/fonts/inter.ttf);
+}
 
 :root{
     --primary-color: #0E3B43;
@@ -11,7 +14,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: inter,'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: inter;
 }
 
 main{
