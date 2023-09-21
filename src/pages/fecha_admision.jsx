@@ -37,7 +37,7 @@ export function FechaAdmision () {
     <section className={styles.fechasSeccion}>
       {
           flyer === true
-            ? <img src='./flyers/Flyer.png' />
+            ? <img className={styles.imgFlyer} src='./flyers/Flyer.png' />
             : <div className={styles.fechaAdmision}>
               {
                 inscripciones &&

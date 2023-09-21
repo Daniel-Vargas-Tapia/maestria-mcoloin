@@ -42,7 +42,6 @@
     gap: 1rem;
 }
 
-
 .docentesSection h2{
     margin-bottom: 2rem;
 }
@@ -52,12 +51,12 @@
     color: var(--accent-color);
     font-weight: bold;
     text-decoration: none;
+    display: block;
 }
 
 .icon{
     display: flex;
     align-items: center;
-    justify-content: start;
     gap: .25rem;
 }
 
@@ -68,8 +67,9 @@
         text-align: center;
         padding: 1rem 2rem;
     }
-
-    
+    .icon{
+        justify-content: center;
+    }  
 }
 
 @keyframes visibility{

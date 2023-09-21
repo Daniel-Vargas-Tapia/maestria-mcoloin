@@ -39,6 +39,10 @@
     flex-shrink: 0;
 }
 
+.imgFlyer{
+    width: 50vw;
+}
+
 
 @media screen and (max-width: 768px){
     .fechasSeccion{
@@ -51,6 +55,9 @@
     .fechaAdmision p{
         font-size: 16px;
     }
+    .imgFlyer{
+        width: 70vw;
+    }
 }
 @media screen and (max-width: 500px){
     .fechasSeccion{
@@ -62,5 +69,8 @@
     }
     .fechaAdmision p{
         font-size: 12px;
+    }
+    .imgFlyer{
+        width: 90vw;
     }
 }

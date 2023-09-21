@@ -1,6 +1,6 @@
 import styles from './nucleo_academico.module.css'
 import { docentes } from '@/mocks/docentes.json'
-import { IconFolder } from '@tabler/icons-react'
+import { IconFolderFilled } from '@tabler/icons-react'
 export function NucleoAcademico () {
   return (
     <section className={styles.docentesSection}>
@@ -14,7 +14,7 @@ export function NucleoAcademico () {
               <p>{docente.titulo}</p>
               <p>SNI: {docente.sni}</p>
               <p className={styles.email}>Email: {docente.email}</p>
-              <a className={styles.cv} href={docente.cv} target='_blank' rel='noopener noreferrer'> <span className={styles.icon}><IconFolder /> Curriculum Vitae</span> </a>
+              <a className={styles.cv} href={docente.cv} target='_blank' rel='noopener noreferrer'> <span className={styles.icon}><IconFolderFilled /> Curriculum Vitae</span> </a>
             </div>
           </article>
         ))}
