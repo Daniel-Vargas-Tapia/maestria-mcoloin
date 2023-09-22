@@ -1,5 +1,4 @@
 .mainHeader{
-    background-image: url(../assets/header.png);    
     background-size: cover;
     background-position: center;
     min-height: 80vh;
@@ -46,19 +45,19 @@
 @keyframes fadeout {
 
         0%, 16.66% {
-          background-image: url(../assets/header.png);
+          background-image: url(../assets/header.webp);
         }
         20.83%, 37.48% {
-          background-image: url(../assets/header2.png);
+          background-image: url(../assets/header2.webp);
         }
         41.65%, 58.3% {
-          background-image: url(../assets/header3.png);
+          background-image: url(../assets/header3.webp);
         }
         62.47%, 79.12% {
-          background-image: url(../assets/header4.png);
+          background-image: url(../assets/header4.webp);
         }
         83.29%, 100% {
-          background-image: url(../assets/header5.png);
+          background-image: url(../assets/header5.webp);
         }
 }
 
