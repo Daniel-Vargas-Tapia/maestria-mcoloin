@@ -12,7 +12,11 @@ export function NucleoAcademico () {
               <h3>{docente.nombre}</h3>
               <h4>{docente.cargo}</h4>
               <p>{docente.titulo}</p>
-              <p>SNII: {docente.sni}</p>
+              {
+                docente.sni === ''
+                  ? null
+                  : <p>SNII: nivel {docente.sni}</p>
+              }
               <p className={styles.email}>Email: {docente.email}</p>
               <a className={styles.cv} href={docente.cv} target='_blank' rel='noopener noreferrer'> <span className={styles.icon}><IconFolderFilled /> Curriculum Vitae</span> </a>
             </div>

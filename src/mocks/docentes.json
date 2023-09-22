@@ -22,7 +22,7 @@
             "nombre": "Ernest Yasser Núñez Betancourt",
             "cargo": "Doctor en Ciencias en Economía Agrícola, DICEA-UACh",
             "titulo": "",
-            "sni": "Candidato",
+            "sni": "",
             "email": "ernest.nunezbe@uptex.edu.mx",
             "cv": "CV/CVErnest.pdf",
             "foto": "/docentes/ernest.webp"
@@ -31,7 +31,7 @@
             "nombre": "Citlalli Melissa Segura Salazar",
             "cargo": "Doctora en Ciencias en Educación Agrícola Superior, UACh",
             "titulo": "",
-            "sni": "Candidato",
+            "sni": "candidata",
             "email": "seguracitlalli@gmail.com",
             "cv": "CV/CVCitlali.pdf",
             "foto": "/docentes/citlalli.webp"
@@ -40,7 +40,7 @@
             "nombre": "Samuel Rivera López",
             "cargo": "Doctor en Ciencias en Economía Agrícola, DICEA-UACh",
             "titulo": "",
-            "sni": "Candidato",
+            "sni": "candidato",
             "email": "samuel.rivera@uptex.edu.mx",
             "cv": "CV/CVSamuel.pdf",
             "foto": "docentes/samuel.webp"
@@ -58,7 +58,7 @@
             "nombre": "César Antonio Prieto Núñez",
             "cargo": "Maestría en Gestión Educativa y en Docencia",
             "titulo": "Doctorado en Educación en curso, Universidad OMI",
-            
+            "sni": "",
             "email": "capenru@uptex.edu.mx",
             "cv": "CV/CVPrieto.pdf",
             "foto": "/docentes/prieto.webp"
