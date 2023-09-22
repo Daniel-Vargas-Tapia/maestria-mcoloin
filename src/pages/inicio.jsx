@@ -14,7 +14,7 @@ export function Inicio () {
       <div className={styles.details}>
         <h4>Objetivo del Programa Educativo</h4>
         <p>Desarrollar profesionales que analicen la complejidad de la globalización, para mejorar el intercambio comercial de México, atendiendo las necesidades de las empresas para su internacionalización, fortaleciendo la distribución de las mercancías y el cumplimiento del marco regulatorio de la materia.</p>
-        <div className={styles.detailColumnas}>
+        <div className={styles.detailColumns}>
           <div>
             <h4>Areas Funcionales</h4>
             <ul>

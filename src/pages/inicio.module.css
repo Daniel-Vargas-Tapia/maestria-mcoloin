@@ -64,10 +64,17 @@
     margin-bottom: 1rem;
 }
 
-.detailColumnas{
+.detailColumns{
     display: flex;
     justify-content: space-around;
 }
+
+@media screen and (max-width: 578px){
+    .detailColumns{
+        flex-direction: column;
+    }
+}
+
 @keyframes visibility{
     0%{opacity: 0}
     100%{opacity: 1}
