@@ -22,7 +22,6 @@
     animation-name: fadeout;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
-    animation-direction: alternate;
 }
 
 .headerIMG:nth-child(1){
