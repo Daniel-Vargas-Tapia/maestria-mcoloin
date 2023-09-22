@@ -1,7 +1,7 @@
-import youtube from '../assets/social/youtube.png'
-import web from '../assets/social/web.png'
-import twitter from '../assets/social/twitter.png'
-import facebook from '../assets/social/facebook.png'
+import youtube from '../assets/social/youtube.webp'
+import web from '../assets/social/web.webp'
+import twitter from '../assets/social/twitter.webp'
+import facebook from '../assets/social/facebook.webp'
 import styles from './socialLinks.module.css'
 export function SocialLinks () {
   return (

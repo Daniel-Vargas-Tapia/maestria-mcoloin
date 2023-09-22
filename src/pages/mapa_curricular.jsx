@@ -5,8 +5,8 @@ export function MapaCurricular () {
   return (
     <div className={styles.mapaCurricular}>
       <div className={styles.logos}>
-        <img src='./logos/sep.png' alt='Logo de la Secretaria de Educación Pública' />
-        <img src='./logos/utp.png' alt='Logo de UTP' />
+        <img src='./logos/sep.webp' alt='Logo de la Secretaria de Educación Pública' />
+        <img src='./logos/utp.webp' alt='Logo de UTP' />
       </div>
       <h2>
         MAPA CURRICULAR DEL PROGRAMA EDUCATIVO EN COMPETENCIAS PROFESIONALES

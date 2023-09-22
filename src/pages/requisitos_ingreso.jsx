@@ -1,4 +1,4 @@
-import requisitosIngresoImg from '../assets/requisitos_ingreso.png'
+import requisitosIngresoImg from '../assets/requisitos_ingreso.webp'
 import styles from './requisitos_ingreso.module.css'
 export function RequisitosIngreso () {
   return (
