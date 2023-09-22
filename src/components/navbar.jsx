@@ -11,7 +11,7 @@ export function Navbar ({ sectionHandler, section }) {
         <li><button onClick={() => sectionHandler('fecha_admision')} className={section === 'fecha_admision' ? styles.active : ''}><IconCalendar /><span>Convocatoria</span></button></li>
         <li><button onClick={() => sectionHandler('plan_estudios')} className={section === 'plan_estudios' ? styles.active : ''}><IconSchool /><span>Plan de Estudios</span></button></li>
         <li><button onClick={() => sectionHandler('mapa_curricular')} className={section === 'mapa_curricular' ? styles.active : ''}><IconMap /><span>Mapa Curricular</span></button></li>
-        <li><button onClick={() => sectionHandler('nucleo_academico')} className={section === 'nucleo_academico' ? styles.active : ''}><IconUsersGroup /><span>Núcleo Académico</span></button></li>
+        <li><button onClick={() => sectionHandler('nucleo_academico')} className={section === 'nucleo_academico' ? styles.active : ''}><IconUsersGroup /><span>Núcleo Básico</span></button></li>
       </ul>
     </nav>
   )

@@ -1,4 +1,4 @@
-import perfilEgresoImg from '../assets/perfil_egreso.png'
+import perfilEgresoImg from '../assets/perfil_egreso.webp'
 import styles from './perfil_egreso.module.css'
 export function PerfilEgreso () {
   return (

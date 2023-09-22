@@ -64,6 +64,10 @@
     margin-bottom: 1rem;
 }
 
+.detailColumnas{
+    display: flex;
+    justify-content: space-around;
+}
 @keyframes visibility{
     0%{opacity: 0}
     100%{opacity: 1}
