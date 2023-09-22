@@ -1,7 +1,7 @@
-import edomexGob from '../assets/edomex-gob.png'
-/* import edomex from '../assets/edomex.png' */
+import edomexGob from '../assets/edomex-gob.webp'
+/* import edomex from '../assets/edomex.svg' */
 import uptex from '../assets/uptex.png'
-import uptexBIS from '../assets/bis.png'
+import uptexBIS from '../assets/bis.webp'
 import styles from './logos.module.css'
 
 export function Logos () {

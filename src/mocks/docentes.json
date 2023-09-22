@@ -7,7 +7,7 @@
             "sni": 1,
             "email": "carlos.luqez@uptex.edu.mx",
             "cv": "CV/CVCarlos.pdf",
-            "foto": "/docentes/carlos.png"
+            "foto": "/docentes/carlos.webp"
         },
         {
             "nombre": "María Jesica Zavala Pineda",
@@ -16,7 +16,7 @@
             "sni": 1,
             "email": "maria.zavala@uptex.edu.mx",
             "cv": "CV/CVMaria.pdf",
-            "foto": "/docentes/maria.png"
+            "foto": "/docentes/maria.webp"
         },
         {
             "nombre": "Ernest Yasser Núñez Betancourt",
@@ -25,7 +25,7 @@
             "sni": "Candidato",
             "email": "ernest.nunezbe@uptex.edu.mx",
             "cv": "CV/CVErnest.pdf",
-            "foto": "/docentes/ernest.png"
+            "foto": "/docentes/ernest.webp"
         },
         {
             "nombre": "Citlalli Melissa Segura Salazar",
@@ -34,7 +34,7 @@
             "sni": "Candidato",
             "email": "seguracitlalli@gmail.com",
             "cv": "CV/CVCitlali.pdf",
-            "foto": "/docentes/citlalli.png"
+            "foto": "/docentes/citlalli.webp"
         },
         {
             "nombre": "Samuel Rivera López",
@@ -43,7 +43,7 @@
             "sni": "Candidato",
             "email": "samuel.rivera@uptex.edu.mx",
             "cv": "CV/CVSamuel.pdf",
-            "foto": "docentes/samuel.png"
+            "foto": "docentes/samuel.webp"
         },
         {
             "nombre": "Elizabeth Roldán Suárez",
@@ -52,7 +52,7 @@
             "sni": 1,
             "email": "elizabeth.roldan@uptex.edu.mx",
             "cv": "CV/CVElizabeth.pdf",
-            "foto": "/docentes/elizabet.png"
+            "foto": "/docentes/elizabet.webp"
         },
         {
             "nombre": "César Antonio Prieto Núñez",
@@ -61,7 +61,7 @@
             
             "email": "capenru@uptex.edu.mx",
             "cv": "CV/CVPrieto.pdf",
-            "foto": "/docentes/prieto.png"
+            "foto": "/docentes/prieto.webp"
         },
         {
             "nombre": "Arely del Rocio Ireta Paredes",
@@ -70,7 +70,7 @@
             "sni": 1,
             "email": "arely.ireta@uptex.edu.mx",
             "cv": "CV/CVArely.pdf",
-            "foto": "/docentes/arely.png"
+            "foto": "/docentes/arely.webp"
         }
     ]
 }
