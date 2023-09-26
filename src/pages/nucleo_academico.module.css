@@ -63,7 +63,9 @@
     align-items: center;
     gap: .25rem;
 }
-
+a{
+    font-style: italic;
+}
 @media screen and (max-width: 1170px){
     .docentesContainer {
         grid-template-columns: repeat(1, 1fr);

@@ -106,6 +106,7 @@ export function PlanEstudios () {
           ))}
         </tbody>
       </table>
+      <div>Nota: Las materia marcada con * significan que son optativas en donde el alumno solo podra cursar dos en sexto cuatrimestre</div>
     </div>
   )
 }
