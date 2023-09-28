@@ -1,6 +1,4 @@
 import { IconBrandFacebook, IconBrandX, IconSchool } from '@tabler/icons-react'
-import twitter from '../assets/social/twitter.webp'
-import facebook from '../assets/social/facebook.webp'
 import styles from './socialLinks.module.css'
 export function SocialLinks () {
   return (
