@@ -13,10 +13,14 @@
     right: 0;
 }
 
-.logoContainer img{
+.logos {
     width: 60px;
     aspect-ratio: 4/3;
     object-fit: contain;
+}
+
+.logosCintillo{
+width: 170px;
 }
 
 @media screen and (max-width: 500px) {
@@ -29,8 +33,11 @@
 
     }
 
-    .logoContainer img{
+    .logos{
         width: 52px
     }
     
+    .logoContainer img:last-child{
+        display: none;
+    }
 }

@@ -17,7 +17,6 @@ export function Footer () {
           Universidad Politécnica de Texcoco Carretera Federal Los Reyes Texcoco Km 14 + 200, San Miguel Coatlinchán Edo. de Méx. C.P. 56250
         </p>
         <span style={{ marginBottom: '1rem', display: 'block' }}>(52) 595 92 1 30 27</span>
-        <SocialLinks />
       </div>
       <ul>
         <li><h2>Enlaces de Interés</h2></li>
@@ -30,6 +29,9 @@ export function Footer () {
         <li><a href='https://conahcyt.mx/' target='_new'>CONAHCYT</a></li>
         <li><a href='https://ipomex2.ipomex.org.mx/ipo/lgt/indice/infoem/art97_3_g2/0.web' target='_new'>Aviso de Privacidad</a></li>
       </ul>
+      <div className={styles.containerSocialLinks}>
+        <SocialLinks />
+      </div>
     </footer>
   )
 }

@@ -4,12 +4,13 @@
     background-position: center;
     color: white;
     display: flex;
-    padding: 4rem;
+    padding: 4rem 4rem 6rem 4rem;
     justify-content: center;
     gap: 4rem;
     position: relative;
     flex-wrap: wrap;
     text-shadow: rgba(0,0,0,.5) 5px 5px 10px;
+    
 
 }
 .backdrop{
@@ -42,6 +43,18 @@
 .mainFooter h2{
     margin-bottom: 1rem;
     color: white;
+}
+
+.containerSocialLinks{
+    background-color: #882035;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    padding: .5rem;
+    gap: 2rem;
 }
 
 @media screen and (max-width: 1120px) {
