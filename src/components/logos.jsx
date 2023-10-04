@@ -1,6 +1,6 @@
 import edomexGob from '../assets/edomex-gob.webp'
 /* import edomex from '../assets/edomex.svg' */
-import uptex from '../assets/uptex.jpg'
+import uptex from '../assets/uptex.webp'
 // import uptexBIS from '../assets/bis.webp'
 import styles from './logos.module.css'
 
