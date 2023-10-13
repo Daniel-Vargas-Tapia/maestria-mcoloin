@@ -1,6 +1,6 @@
 .fechasSeccion{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     margin: auto;
@@ -41,8 +41,33 @@
 .imgFlyer{
     width: 32vw;
     border-radius: 10px;
+    margin-top: 25px;
 }
 
+.imgslider{
+    width: 70vw;
+    border-radius: 10px;
+    margin: 5px;
+}
+.btnver{
+    width: 90px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: #007465;
+    color: white;
+    border: 1.5px solid #013841;
+    display: block;
+    line-height: 25px;
+    text-align: center;
+    text-decoration: none;
+}
+.divslider{
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
 @media screen and (max-width: 768px){
     .fechasSeccion{

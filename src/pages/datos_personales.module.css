@@ -1,0 +1,36 @@
+.perfilIngreso{
+    padding: 2rem;
+    box-shadow: rgba(0,0,0,.5) 5px 5px 15px;
+    border-radius: 25px;
+    max-width: 750px;
+    margin: auto;
+    animation: visibility 0.2s ease-in;
+}
+
+.perfilIngreso h2{
+    margin-bottom: 1rem;
+}
+.nombredatos {
+    display: flex;
+    align-items: center;
+  }
+  table {
+    border-collapse: separate;
+    border-spacing: 30px 15px;
+  }
+  table tr {
+    font-weight: bold;
+    font-size: 18px;
+  }
+
+  table tr input[type="text"],
+  table tr input[type="number"],
+  table tr input[type="date"],
+  table tr input[type="email"],
+  table tr select {
+    border-radius: 10px;
+    background-color: white;
+    border: 2px solid #0e3b43;
+  }
+
+
