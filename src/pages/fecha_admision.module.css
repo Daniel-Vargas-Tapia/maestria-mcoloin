@@ -57,6 +57,7 @@
     color: white;
     display: block;
     text-align: center;
+    line-height: 15px;
     text-decoration: none;
     font-style: normal;
     transition: background-color .3s ease-in;
