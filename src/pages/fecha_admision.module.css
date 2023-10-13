@@ -53,13 +53,17 @@
     width: 90px;
     height: 30px;
     border-radius: 10px;
-    background-color: #007465;
+    background-color: #0e3b43;
     color: white;
-    border: 1.5px solid #013841;
     display: block;
-    line-height: 25px;
     text-align: center;
     text-decoration: none;
+    font-style: normal;
+    transition: background-color .3s ease-in;
+    padding: .5rem;
+}
+.btnver:hover{
+    background-color: var(--accent-color);
 }
 .divslider{
     border-radius: 10px;
@@ -97,5 +101,9 @@
     }
     .imgFlyer{
         width: 90vw;
+    }
+    .imgslider{
+        width: 90vw;
+        left: 30vw;
     }
 }
