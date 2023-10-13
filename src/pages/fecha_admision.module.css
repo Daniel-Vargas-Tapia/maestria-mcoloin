@@ -8,7 +8,7 @@
 
 .fechaAdmision{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
     gap: 2rem;
@@ -39,9 +39,9 @@
 }
 
 .imgFlyer{
-    width: 32vw;
+    width: 40vw;
     border-radius: 10px;
-    margin: 10px;
+    margin: 25px;
 }
 
 .imgFlyer:first-child{
@@ -54,7 +54,7 @@
     color: white;
     background-color: var(--primary-color);
     padding: .8rem;
-    border-radius: 15px;
+    border-radius: 10px;
     transition: background-color .3s ease-in;
     font-style: normal;
 }
@@ -63,6 +63,14 @@
     background-color: var(--accent-color);
 }
 
+.botones{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 200px;
+    align-items: center;
+    margin: 10px auto;
+}
 
 @media screen and (max-width: 768px){
     .fechasSeccion{
@@ -98,5 +106,8 @@
     }
     .convocatoria{
         font-size: 12px;
+    }
+    .botones{
+        gap: 3rem;
     }
 }
