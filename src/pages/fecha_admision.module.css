@@ -54,7 +54,7 @@
     color: white;
     background-color: var(--primary-color);
     padding: .8rem;
-    border-radius: 10px;
+    border-radius: 20px;
     transition: background-color .3s ease-in;
     font-style: normal;
 }
