@@ -3,7 +3,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: auto;
+    margin: 10px auto;
 }
 
 .fechaAdmision{
@@ -41,38 +41,28 @@
 .imgFlyer{
     width: 32vw;
     border-radius: 10px;
-    margin-top: 25px;
+    margin: 10px;
 }
 
-.imgslider{
-    width: 70vw;
-    border-radius: 10px;
-    margin: 5px;
+.imgFlyer:first-child{
+    width: 90%;
 }
-.btnver{
-    width: 90px;
-    height: 30px;
-    border-radius: 10px;
-    background-color: #0e3b43;
-    color: white;
-    display: block;
-    text-align: center;
-    line-height: 15px;
+
+.convocatoria{
     text-decoration: none;
-    font-style: normal;
+    font-size: 16px;
+    color: white;
+    background-color: var(--primary-color);
+    padding: .8rem;
+    border-radius: 15px;
     transition: background-color .3s ease-in;
-    padding: .5rem;
+    font-style: normal;
 }
-.btnver:hover{
+
+.convocatoria:hover{
     background-color: var(--accent-color);
 }
-.divslider{
-    border-radius: 10px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
+
 
 @media screen and (max-width: 768px){
     .fechasSeccion{
@@ -87,6 +77,9 @@
     }
     .imgFlyer{
         width: 70vw;
+    }
+    .convocatoria{
+        font-size: 14px;
     }
 }
 @media screen and (max-width: 500px){
@@ -103,8 +96,7 @@
     .imgFlyer{
         width: 90vw;
     }
-    .imgslider{
-        width: 90vw;
-        left: 30vw;
+    .convocatoria{
+        font-size: 12px;
     }
 }
