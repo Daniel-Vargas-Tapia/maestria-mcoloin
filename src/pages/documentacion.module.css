@@ -1,0 +1,58 @@
+.documentacion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+    gap: 1rem;
+    box-shadow: rgba(0,0,0,0.5) 5px 5px 15px;
+    padding: 2rem;
+    border-radius: 25px;
+    width: 100%;
+    max-width: 1200px;
+    min-width: 300px;
+    animation: visibility 0.2s ease-in;
+}
+
+.contenedor{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.cargaDocumentos{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+
+.contenedor h2{
+    padding-bottom: 2rem;
+}
+
+.contenedor div{
+    padding: .8rem;
+}
+
+.fileUpload{
+    padding: .5rem 0;
+}
+
+.boton{
+    padding: .9rem;
+    width: 12rem;
+    background-color: var(--primary-color);
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+}
+
+.boton:hover{
+    background-color: var(--accent-color);
+    transition: background-color .2s ease-in;
+}

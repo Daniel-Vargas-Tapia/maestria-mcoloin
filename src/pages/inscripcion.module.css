@@ -1,0 +1,4 @@
+.mainInscripcion{
+    display: flex;
+    flex-direction: column;
+}

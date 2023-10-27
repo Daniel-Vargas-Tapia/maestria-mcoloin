@@ -1,0 +1,71 @@
+.NavBar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.escuelaProcedencia{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem auto;
+    gap: 1rem;
+    box-shadow: rgba(0,0,0,0.5) 5px 5px 15px;
+    padding: 2rem;
+    border-radius: 25px;
+    max-width: 600px;
+    min-width: 300px;
+    animation: visibility 0.2s ease-in;
+}
+.contenedor h1{
+    padding-bottom: 1rem;
+    display: flex;
+    justify-content: center;
+    color: white;
+    padding: .5rem;
+    border-radius: 40px;
+    font-size: 22px;
+    background-color: #2a625c;
+  }
+.contenedor h2{
+    padding-bottom: 2rem;
+}
+
+.contenedor div{
+    padding: .8rem;
+}
+
+.escuelaProcedencia .contenedor select{
+    width: 100%;
+    padding: .5rem;
+    border: solid var(--complementary-color) 2px;
+    border-radius: 10px;
+}
+.escuelaProcedencia .contenedor strong{
+    width: 100%;
+    padding: .5rem;
+    color: white;
+    background-color: #a3bbad;
+    border-radius: 10px;
+  }
+.contenedorBoton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.boton{
+    padding: .9rem;
+    width: 12rem;
+    background-color: var(--primary-color);
+    border: none;
+    border-radius: 20px;
+    color: white;
+    font-weight: bold;
+}
+
+.boton:hover{
+    background-color: var(--accent-color);
+    transition: background-color .2s ease-in;
+}

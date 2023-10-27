@@ -3,7 +3,7 @@
   align-items: center;
   justify-content: center;
 }
-.DatosPersonales{
+.DomicilioActual{
 
   display: flex;
   justify-content: center;
@@ -17,12 +17,6 @@
   max-width: 980px;
   min-width: 300px;
   animation: visibility 0.2s ease-in;
-}
-
-.contenedor h1{
-  padding-bottom: 1rem;
-  display: flex;
-  justify-content: center;
 }
 .contenedor h1{
   padding-bottom: 1rem;
@@ -41,18 +35,19 @@
   padding: .8rem;
 }
 
-.DatosPersonales .contenedor select{
+.DomicilioActual .contenedor select{
   width: 100%;
   padding: .5rem;
   border: solid var(--complementary-color) 2px;
   border-radius: 10px;
 }
 
-.DatosPersonales .contenedor strong{
+.DomicilioActual .contenedor strong{
   width: 100%;
   padding: .5rem;
   color: white;
   background-color: #a3bbad;
+  border: #2a625c 2px;
   border-radius: 10px;
 }
 
@@ -83,17 +78,20 @@
   margin-bottom: 1rem;
 }
 
+/* Asegurarse de que cada div ocupe un cuarto del ancho disponible en todas las resoluciones */
 .row > div {
-  flex: 0 0 calc(25% - 1rem);
+  flex: 0 0 calc(25% - 1rem); /* Calcula el ancho para 4 columnas con espaciado */
 }
 
+/* Cambiar el diseño a dos filas en resoluciones menores de 600px */
 @media (max-width: 850px) {
   .row > div {
-    flex: 0 0 calc(50% - 1rem);
+    flex: 0 0 calc(50% - 1rem); /* Calcula el ancho para 2 columnas con espaciado */
   }
 }
 @media (max-width: 570px) {
   .row > div {
-    flex: 0 0 calc(100% - 1rem);
+    flex: 0 0 calc(100% - 1rem); /* Calcula el ancho para una sola columna */
   }
 }
+

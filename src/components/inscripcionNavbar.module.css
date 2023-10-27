@@ -1,0 +1,141 @@
+
+.navInscripcion{
+    width: 250px;
+    background-color: var(--primary-color);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0 0 15px 15px ;
+    height: fit-content;
+    z-index: 999;
+    width: 100%;
+    margin: 0;
+}
+.ulInscripcion{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: center;
+    font-size: 18px;
+    gap: 1rem;
+    padding: 1rem;
+    align-self: flex-start;
+}
+
+.liInscripcion{
+        display: flex;
+        align-items: center;
+        width: 100%;
+}
+
+.ulInscripcion button{
+    border-radius: 15px;
+    display: block;
+    padding: 1rem;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    width: 100%;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .5rem;
+    transition: background-color .3s ease-in;
+}
+
+.active{
+    background-color: var(--accent-color);
+}
+
+.notActive{
+    background-color: var(--primary-color);
+}
+.ulInscripcion button:hover{
+    background-color: var(--accent-color);
+}
+
+.linkTo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+    button span{
+        display: none;
+    }
+    .ulInscripcion button{
+        width: fit-content;
+        padding: .8rem;
+    }
+    .navInscripcion{
+        width: 100%;
+    }
+    .ulInscripcion {
+        padding: .5rem;
+        
+    }
+}
+
+svg{
+    flex-shrink: 0;
+}
+@media screen and (max-width: 576px) {
+    .navInscripcion{
+        width: 100%;
+        position: sticky;
+        top: 0;
+        z-index: 999;
+        margin: auto;
+        border-radius: 0px;
+    }
+    .ulInscripcion{
+        flex-direction: row;
+        gap: .5rem;
+        align-self: center;
+        margin: auto;
+    }
+    .ulInscripcion button{
+        padding: .35rem;
+        border-radius: 50%;
+    }
+}
+@media screen and (max-width: 400px) {
+    .ulInscripcion{
+        gap: .45rem;
+    }
+    .ulInscripcion button{
+        padding: .28rem;
+        border-radius: 50%;
+        gap: 0;
+        text-align: center;
+    }
+
+    svg{
+        width: 22px;
+        height: 22px;
+    }
+}
+
+.ulInscripcion button:active{
+    animation:jello-horizontal .3s linear both
+} 
+
+@keyframes jello-horizontal{
+    0%{transform:scale3d(1,1,1)}
+    30%{transform:scale3d(1.25,.75,1)}
+    40%{transform:scale3d(.75,1.25,1)}
+    50%{transform:scale3d(1.15,.85,1)}
+    65%{transform:scale3d(.95,1.05,1)}
+    75%{transform:scale3d(1.05,.95,1)}
+    100%{transform:scale3d(1,1,1)}
+}

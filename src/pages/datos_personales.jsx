@@ -1,91 +1,110 @@
 import styles from './datos_personales.module.css'
+import { CustomInput } from './custom_input'
+
 export function DatosPersonales () {
   return (
-    <section className={styles.perfilIngreso}>
-      <table>
-        <tr>
-          <td>Nombre: </td>
-          <td>A. paterno</td>
-          <td>A. materno</td>
-        </tr>
-        <tr>
-          <td><input type='text' /></td>
-          <td><input type='text' /></td>
-          <td><input type='text' /></td>
-        </tr>
-        <tr>
-          <td>Fecha de nacimiento: </td>
-          <td>Estado civil:</td>
-          <td>Municipio de nacimiento: </td>
-        </tr>
-        <tr>
-          <td><input type='date' /></td>
-          <td>
+    <section className={styles.DatosPersonales}>
+      <div className={styles.contenedor}>
+        <h1>Datos Personales</h1>
+        <div className={styles.row}>
+          <div>
+            <strong>Nombre(s):</strong>
+            <CustomInput type='text' placeholder='Nombre' />
+          </div>
+          <div>
+            <strong>A. Paterno</strong>
+            <CustomInput type='text' placeholder='A. paterno' />
+          </div>
+          <div>
+            <strong>A. Materno</strong>
+            <CustomInput type='text' placeholder='A. materno' />
+          </div>
+          <div>
+            <strong>Fecha de nacimiento:</strong>
+            <CustomInput type='date' placeholder='A. materno' />
+          </div>
+          <div>
+            <strong>Estado:</strong>
             <select>
-              <option>Selecciona una opcion</option>
-              <option>CDMX</option>
-              <option>Estado de Mexico</option>
-              <option>Baja California</option>
+              <option>Estado de nacimiento</option>
+              <option>Estado de méxico</option>
               <option>Chihuahua</option>
-            </select>
-          </td>
-          <td>
-            <select>
-              <option>Selecciona una opcion</option>
               <option>CDMX</option>
-              <option>Estado de Mexico</option>
+              <option>Michoacan</option>
+              <option>Tijuana</option>
               <option>Baja California</option>
-              <option>Chihuahua</option>
+              <option>Oaxaca</option>
             </select>
-          </td>
-        </tr>
-        <tr>
-          <td>Localidad: </td>
-          <td>Celular: </td>
-          <td>Correo electronico: </td>
-        </tr>
-        <tr>
-          <td><input type='text' /></td>
-          <td><input type='number' /></td>
-          <td><input type='email' /></td>
-        </tr>
-        <tr>
-          <td>Genero: </td>
-          <td>Tipo de sangre: </td>
-          <td>Hijos: </td>
-        </tr>
-        <tr>
-          <td>
+          </div>
+          <div>
+            <strong>Municipio:</strong>
+            <CustomInput type='text' placeholder='Municipio de nacimiento' />
+          </div>
+          <div>
+            <strong>Localidad: </strong>
+            <CustomInput type='text' placeholder='Localidad de nacimiento' />
+          </div>
+          <div>
+            <strong>Telefono personal:</strong>
+            <CustomInput type='number' placeholder='Telefono' />
+          </div>
+          <div>
+            <strong>Correo electronico:   </strong>
+            <CustomInput type='email' placeholder='Correo electronico' />
+          </div>
+          <div>
+            <strong>Estado civil:</strong>
             <select>
               <option>Selecciona una opcion</option>
-              <option>Solter</option>
-              <option>Casado</option>
+              <option>Solter@</option>
+              <option>Casad@</option>
+              <option>Viud@</option>
+              <option>Divorciad@</option>
             </select>
-          </td>
-          <td>
+          </div>
+          <div>
+            <strong>Genero:</strong>
             <select>
               <option>Selecciona una opcion</option>
-              <option>0+</option>
+              <option>Hombre</option>
+              <option>Mujer</option>
+            </select>
+          </div>
+          <div>
+            <strong>Tipo de sangre:</strong>
+            <select>
+              <option>Selecciona una opcion</option>
+              <option>A+</option>
+              <option>A-</option>
+              <option>B+</option>
+              <option>B-</option>
+              <option>AB+</option>
+              <option>AB-</option>
+              <option>O+</option>
               <option>O-</option>
             </select>
-          </td>
-          <td>
+          </div>
+          <div>
+            <strong>Hijos:</strong>
             <select>
               <option>Selecciona una opcion</option>
               <option>Si</option>
               <option>No</option>
             </select>
-          </td>
-        </tr>
-        <tr>
-          <td>Telefono de casa: </td>
-          <td>NSS: </td>
-        </tr>
-        <tr>
-          <td><input type='number' /></td>
-          <td><input type='number' /></td>
-        </tr>
-      </table>
+          </div>
+          <div>
+            <strong>Telefono de casa: </strong>
+            <CustomInput type='number' placeholder='Telefono de casa' />
+          </div>
+          <div>
+            <strong>NSS :</strong>
+            <CustomInput type='text' placeholder='NSS' />
+          </div>
+        </div>
+        <div className={styles.contenedorBoton}>
+          <button className={styles.boton}>Continuar</button>
+        </div>
+      </div>
     </section>
   )
 }

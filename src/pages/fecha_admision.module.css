@@ -51,9 +51,10 @@
 .convocatoria{
     text-decoration: none;
     font-size: 16px;
+    width: 12rem;
     color: white;
     background-color: var(--primary-color);
-    padding: .8rem;
+    padding: 1rem;
     border-radius: 20px;
     transition: background-color .3s ease-in;
     font-style: normal;
@@ -65,11 +66,20 @@
 
 .botones{
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-    gap: 200px;
     align-items: center;
+    justify-content: space-evenly; 
+    text-align: center;
+    width: 100%;
     margin: 10px auto;
+}
+
+.linkTo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-decoration: none;
+    font-style: normal;
 }
 
 @media screen and (max-width: 768px){
@@ -88,6 +98,7 @@
     }
     .convocatoria{
         font-size: 14px;
+        width: 10rem;
     }
 }
 @media screen and (max-width: 500px){
@@ -106,8 +117,9 @@
     }
     .convocatoria{
         font-size: 12px;
+        width: 9rem;
     }
-    .botones{
+    /* .botones{
         gap: 3rem;
-    }
+    } */
 }
