@@ -14,6 +14,13 @@
     animation: visibility 0.2s ease-in;
 }
 
+.cargaDocumentos input {
+    border-bottom: 6px solid #0e3b43; /* Puedes ajustar el color y el grosor de la línea según tus preferencias */
+    margin-bottom: 0.5rem; /* Añade un pequeño espacio entre el texto y la línea */
+    padding-bottom: 1rem; /* Añade espacio entre la línea y el siguiente elemento */
+    border-radius: 5px;
+  }
+  
 .contenedor{
     width: 100%;
     display: flex;
@@ -47,7 +54,7 @@
     width: 12rem;
     background-color: var(--primary-color);
     border: none;
-    border-radius: 10px;
+    border-radius: 20px;
     color: white;
     font-weight: bold;
 }
